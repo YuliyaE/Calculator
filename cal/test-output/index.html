@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo_Suite">
+              <span class="suite-name border-failed">Demo Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Suite">
+                    <span>C:\Users\Yuliya_Eibatava\Downloads\cal\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Suite">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">58 methods, 9 failed,   49 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Demo_Suite" class="hide-methods failed suite-Demo_Suite"> (hide)</a> <!-- hide-methods failed suite-Demo_Suite -->
+                      <a href="#" panel-name="suite-Demo_Suite" class="show-methods failed suite-Demo_Suite"> (show)</a> <!-- show-methods failed suite-Demo_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Demo_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest(3, -0.98)">cosTest(3, -0.98)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest(17, -0.275)">cosTest(17, -0.275)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest(24, 0.42)">cosTest(24, 0.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest(1, 0.54)">cosTest(1, 0.54)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="ctgTest(-1, -0.642)">ctgTest(-1, -0.642)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="ctgTest(7, 1.14)">ctgTest(7, 1.14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="ctgTest(0, Infinity)">ctgTest(0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="ctgTest(1, 0.642)">ctgTest(1, 0.642)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest(-1, 1)">sinTest(-1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Demo_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demo_Suite" class="hide-methods passed suite-Demo_Suite"> (hide)</a> <!-- hide-methods passed suite-Demo_Suite -->
+                      <a href="#" panel-name="suite-Demo_Suite" class="show-methods passed suite-Demo_Suite"> (show)</a> <!-- show-methods passed suite-Demo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Demo_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divExceptionTest(50, 0, 10)">divExceptionTest(50, 0, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(24, 4, 6.0)">divTest(24, 4, 6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(50, 5, 10)">divTest(50, 5, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(15, 0, Infinity)">divTest(15, 0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(84, 4, 21.0)">divTest(84, 4, 21.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(0, 0, NaN)">divTest(0, 0, NaN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(15, 3, 5.0)">divTest(15, 3, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(24, 4, 6)">divTest(24, 4, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(84, 4, 21)">divTest(84, 4, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest(15, 3, 5)">divTest(15, 3, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(6, 2, 4.0)">minusTest(6, 2, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(10, 9, 1)">minusTest(10, 9, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(0, 0, 0)">minusTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(29, 9, 20.0)">minusTest(29, 9, 20.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(7, 1, 6.0)">minusTest(7, 1, 6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(14, 5, 9.0)">minusTest(14, 5, 9.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(24, 18, 6)">minusTest(24, 18, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(8, 3, 5)">minusTest(8, 3, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest(15, 5, 10.0)">minusTest(15, 5, 10.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(6, 3, 18)">multTest(6, 3, 18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(6, 3, 18)">multTest(6, 3, 18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(4, 3, 12)">multTest(4, 3, 12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(5, 7, 35)">multTest(5, 7, 35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(9, 5, 45)">multTest(9, 5, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(9, 5, 45)">multTest(9, 5, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(5, 7, 35)">multTest(5, 7, 35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(18, 4, 72)">multTest(18, 4, 72)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(18, 4, 72)">multTest(18, 4, 72)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multTest(4, 3, 12)">multTest(4, 3, 12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(0, 0, 0)">onePlusTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(10, -1, 9)">onePlusTwoTest(10, -1, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(10, 23, 33)">onePlusTwoTest(10, 23, 33)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(10, 23, 33)">onePlusTwoTest(10, 23, 33)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(-1, 10, 9)">onePlusTwoTest(-1, 10, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(10, -1, 9)">onePlusTwoTest(10, -1, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(-1, 10, 9)">onePlusTwoTest(-1, 10, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest(0, 0, 0)">onePlusTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.PowCalculatorTest" hash-for-method="powTest(1, 0.841)">powTest(1, 0.841)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.PowCalculatorTest" hash-for-method="powTest(3, 0.14)">powTest(3, 0.14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.PowCalculatorTest" hash-for-method="powTest(0, 0.0)">powTest(0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.PowCalculatorTest" hash-for-method="powTest(-1, -0.84)">powTest(-1, -0.84)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinTest(0, 0.0)">sinTest(0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinTest(-1, -0.84)">sinTest(-1, -0.84)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinTest(1, 0.84)">sinTest(1, 0.84)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinTest(3, 0.14)">sinTest(3, 0.14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest(25, 5)">sinTest(25, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest(64, 8)">sinTest(64, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest(16, 4)">sinTest(16, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="twoMinusOne">twoMinusOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo_Suite" class="panel Demo_Suite">
+          <div class="suite-Demo_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.CosineCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest(3, -0.98)">
+                  </a> <!-- cosTest(3, -0.98) -->
+                  <span class="method-name">cosTest</span>
+                  <span class="parameters">(3, -0.98)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cosine expected [0.1411200080598672] but found [-0.98]
+	at com.epam.cdp.cal.tests.CosineCalculatorTest.cosTest(CosineCalculatorTest.java:12)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest(17, -0.275)">
+                  </a> <!-- cosTest(17, -0.275) -->
+                  <span class="method-name">cosTest</span>
+                  <span class="parameters">(17, -0.275)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cosine expected [-0.9613974918795568] but found [-0.275]
+	at com.epam.cdp.cal.tests.CosineCalculatorTest.cosTest(CosineCalculatorTest.java:12)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest(24, 0.42)">
+                  </a> <!-- cosTest(24, 0.42) -->
+                  <span class="method-name">cosTest</span>
+                  <span class="parameters">(24, 0.42)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cosine expected [-0.9055783620066238] but found [0.42]
+	at com.epam.cdp.cal.tests.CosineCalculatorTest.cosTest(CosineCalculatorTest.java:12)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest(1, 0.54)">
+                  </a> <!-- cosTest(1, 0.54) -->
+                  <span class="method-name">cosTest</span>
+                  <span class="parameters">(1, 0.54)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cosine expected [0.8414709848078965] but found [0.54]
+	at com.epam.cdp.cal.tests.CosineCalculatorTest.cosTest(CosineCalculatorTest.java:12)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-failed -->
+          <div class="suite-Demo_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(-1, 1)">
+                  </a> <!-- sinTest(-1, 1) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(-1, 1)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException
+	at com.epam.cdp.cal.tests.SquareRootCalculatorTest.sinTest(SquareRootCalculatorTest.java:13)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-failed -->
+          <div class="suite-Demo_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.CotangentCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctgTest(-1, -0.642)">
+                  </a> <!-- ctgTest(-1, -0.642) -->
+                  <span class="method-name">ctgTest</span>
+                  <span class="parameters">(-1, -0.642)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cotangent expected [-0.7615941559557649] but found [-0.642]
+	at com.epam.cdp.cal.tests.CotangentCalculatorTest.ctgTest(CotangentCalculatorTest.java:14)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctgTest(7, 1.14)">
+                  </a> <!-- ctgTest(7, 1.14) -->
+                  <span class="method-name">ctgTest</span>
+                  <span class="parameters">(7, 1.14)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cotangent expected [0.9999983369439447] but found [1.14]
+	at com.epam.cdp.cal.tests.CotangentCalculatorTest.ctgTest(CotangentCalculatorTest.java:14)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctgTest(0, Infinity)">
+                  </a> <!-- ctgTest(0, Infinity) -->
+                  <span class="method-name">ctgTest</span>
+                  <span class="parameters">(0, Infinity)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cotangent expected [0.0] but found [Infinity]
+	at com.epam.cdp.cal.tests.CotangentCalculatorTest.ctgTest(CotangentCalculatorTest.java:14)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ctgTest(1, 0.642)">
+                  </a> <!-- ctgTest(1, 0.642) -->
+                  <span class="method-name">ctgTest</span>
+                  <span class="parameters">(1, 0.642)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid result of cotangent expected [0.7615941559557649] but found [0.642]
+	at com.epam.cdp.cal.tests.CotangentCalculatorTest.ctgTest(CotangentCalculatorTest.java:14)
+	at com.epam.cdp.cal.Runner.main(Runner.java:26)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-failed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SinusCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(0, 0.0)">
+                  </a> <!-- sinTest(0, 0.0) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(-1, -0.84)">
+                  </a> <!-- sinTest(-1, -0.84) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(-1, -0.84)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(1, 0.84)">
+                  </a> <!-- sinTest(1, 0.84) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(1, 0.84)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(3, 0.14)">
+                  </a> <!-- sinTest(3, 0.14) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(3, 0.14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SubtractionCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(6, 2, 4.0)">
+                  </a> <!-- minusTest(6, 2, 4.0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(6, 2, 4.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(10, 9, 1)">
+                  </a> <!-- minusTest(10, 9, 1) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(10, 9, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(0, 0, 0)">
+                  </a> <!-- minusTest(0, 0, 0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(29, 9, 20.0)">
+                  </a> <!-- minusTest(29, 9, 20.0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(29, 9, 20.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(7, 1, 6.0)">
+                  </a> <!-- minusTest(7, 1, 6.0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(7, 1, 6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(14, 5, 9.0)">
+                  </a> <!-- minusTest(14, 5, 9.0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(14, 5, 9.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(24, 18, 6)">
+                  </a> <!-- minusTest(24, 18, 6) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(24, 18, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(8, 3, 5)">
+                  </a> <!-- minusTest(8, 3, 5) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(8, 3, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest(15, 5, 10.0)">
+                  </a> <!-- minusTest(15, 5, 10.0) -->
+                  <span class="method-name">minusTest</span>
+                  <span class="parameters">(15, 5, 10.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoMinusOne">
+                  </a> <!-- twoMinusOne -->
+                  <span class="method-name">twoMinusOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.MultiplicationCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(6, 3, 18)">
+                  </a> <!-- multTest(6, 3, 18) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(6, 3, 18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(6, 3, 18)">
+                  </a> <!-- multTest(6, 3, 18) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(6, 3, 18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(4, 3, 12)">
+                  </a> <!-- multTest(4, 3, 12) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(4, 3, 12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(5, 7, 35)">
+                  </a> <!-- multTest(5, 7, 35) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(5, 7, 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(9, 5, 45)">
+                  </a> <!-- multTest(9, 5, 45) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(9, 5, 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(9, 5, 45)">
+                  </a> <!-- multTest(9, 5, 45) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(9, 5, 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(5, 7, 35)">
+                  </a> <!-- multTest(5, 7, 35) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(5, 7, 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(18, 4, 72)">
+                  </a> <!-- multTest(18, 4, 72) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(18, 4, 72)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(18, 4, 72)">
+                  </a> <!-- multTest(18, 4, 72) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(18, 4, 72)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multTest(4, 3, 12)">
+                  </a> <!-- multTest(4, 3, 12) -->
+                  <span class="method-name">multTest</span>
+                  <span class="parameters">(4, 3, 12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(25, 5)">
+                  </a> <!-- sinTest(25, 5) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(25, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(64, 8)">
+                  </a> <!-- sinTest(64, 8) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(64, 8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest(16, 4)">
+                  </a> <!-- sinTest(16, 4) -->
+                  <span class="method-name">sinTest</span>
+                  <span class="parameters">(16, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.DivisionCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divExceptionTest(50, 0, 10)">
+                  </a> <!-- divExceptionTest(50, 0, 10) -->
+                  <span class="method-name">divExceptionTest</span>
+                  <span class="parameters">(50, 0, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(24, 4, 6.0)">
+                  </a> <!-- divTest(24, 4, 6.0) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(24, 4, 6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(50, 5, 10)">
+                  </a> <!-- divTest(50, 5, 10) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(50, 5, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(15, 0, Infinity)">
+                  </a> <!-- divTest(15, 0, Infinity) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(15, 0, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(84, 4, 21.0)">
+                  </a> <!-- divTest(84, 4, 21.0) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(84, 4, 21.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(0, 0, NaN)">
+                  </a> <!-- divTest(0, 0, NaN) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(0, 0, NaN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(15, 3, 5.0)">
+                  </a> <!-- divTest(15, 3, 5.0) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(15, 3, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(24, 4, 6)">
+                  </a> <!-- divTest(24, 4, 6) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(24, 4, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(84, 4, 21)">
+                  </a> <!-- divTest(84, 4, 21) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(84, 4, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(15, 3, 5)">
+                  </a> <!-- divTest(15, 3, 5) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(15, 3, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.PowCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(1, 0.841)">
+                  </a> <!-- powTest(1, 0.841) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(1, 0.841)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(3, 0.14)">
+                  </a> <!-- powTest(3, 0.14) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(3, 0.14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(0, 0.0)">
+                  </a> <!-- powTest(0, 0.0) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(-1, -0.84)">
+                  </a> <!-- powTest(-1, -0.84) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(-1, -0.84)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+          <div class="suite-Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SumCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(0, 0, 0)">
+                  </a> <!-- onePlusTwoTest(0, 0, 0) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(10, -1, 9)">
+                  </a> <!-- onePlusTwoTest(10, -1, 9) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(10, -1, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(10, 23, 33)">
+                  </a> <!-- onePlusTwoTest(10, 23, 33) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(10, 23, 33)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(10, 23, 33)">
+                  </a> <!-- onePlusTwoTest(10, 23, 33) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(10, 23, 33)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(-1, 10, 9)">
+                  </a> <!-- onePlusTwoTest(-1, 10, 9) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(-1, 10, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(10, -1, 9)">
+                  </a> <!-- onePlusTwoTest(10, -1, 9) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(10, -1, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(-1, 10, 9)">
+                  </a> <!-- onePlusTwoTest(-1, 10, 9) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(-1, 10, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest(0, 0, 0)">
+                  </a> <!-- onePlusTwoTest(0, 0, 0) -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Suite-class-passed -->
+        </div> <!-- panel Demo_Suite -->
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Yuliya_Eibatava\Downloads\cal\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Demo Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.epam.cdp.cal.listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sub Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SubtractionCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sub Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sum Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SumCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sum Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cosine Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.CosineCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cosine Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cotangent Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.CotangentCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cotangent Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Division Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.DivisionCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Division Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Multiplication Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.MultiplicationCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Multiplication Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Power Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.PowCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Power Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sinus Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SinusCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sinus Cal Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Square root Cal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SquareRootCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Square root Cal Test --&gt;
+&lt;/suite&gt; &lt;!-- Demo Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default Suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/test/resources/testng.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sub Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sum Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cosine Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cotangent Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Division Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Multiplication Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Power Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sinus Cal Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Square root Cal Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo_Suite');
+function tableData_Demo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(58);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'minusTest')
+data.setCell(0, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'minusTest')
+data.setCell(1, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'minusTest')
+data.setCell(2, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'twoMinusOne')
+data.setCell(3, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'minusTest')
+data.setCell(4, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'minusTest')
+data.setCell(5, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'minusTest')
+data.setCell(6, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'minusTest')
+data.setCell(7, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'minusTest')
+data.setCell(8, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'minusTest')
+data.setCell(9, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'onePlusTwoTest')
+data.setCell(10, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'onePlusTwoTest')
+data.setCell(11, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'onePlusTwoTest')
+data.setCell(12, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'onePlusTwoTest')
+data.setCell(13, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'onePlusTwoTest')
+data.setCell(14, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'onePlusTwoTest')
+data.setCell(15, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'onePlusTwoTest')
+data.setCell(16, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'onePlusTwoTest')
+data.setCell(17, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'cosTest')
+data.setCell(18, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'cosTest')
+data.setCell(19, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'cosTest')
+data.setCell(20, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'cosTest')
+data.setCell(21, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ctgTest')
+data.setCell(22, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ctgTest')
+data.setCell(23, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ctgTest')
+data.setCell(24, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ctgTest')
+data.setCell(25, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'divTest')
+data.setCell(26, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'divTest')
+data.setCell(27, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'divTest')
+data.setCell(28, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'divExceptionTest')
+data.setCell(29, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'divTest')
+data.setCell(30, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'divTest')
+data.setCell(31, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'divTest')
+data.setCell(32, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'divTest')
+data.setCell(33, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'divTest')
+data.setCell(34, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'divTest')
+data.setCell(35, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'multTest')
+data.setCell(36, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'multTest')
+data.setCell(37, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'multTest')
+data.setCell(38, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'multTest')
+data.setCell(39, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'multTest')
+data.setCell(40, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'multTest')
+data.setCell(41, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'multTest')
+data.setCell(42, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'multTest')
+data.setCell(43, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'multTest')
+data.setCell(44, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'multTest')
+data.setCell(45, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'powTest')
+data.setCell(46, 2, 'com.epam.cdp.cal.tests.PowCalculatorTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'powTest')
+data.setCell(47, 2, 'com.epam.cdp.cal.tests.PowCalculatorTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'powTest')
+data.setCell(48, 2, 'com.epam.cdp.cal.tests.PowCalculatorTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'powTest')
+data.setCell(49, 2, 'com.epam.cdp.cal.tests.PowCalculatorTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'sinTest')
+data.setCell(50, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'sinTest')
+data.setCell(51, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'sinTest')
+data.setCell(52, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'sinTest')
+data.setCell(53, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'sinTest')
+data.setCell(54, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'sinTest')
+data.setCell(55, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'sinTest')
+data.setCell(56, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'sinTest')
+data.setCell(57, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(57, 3, 0);
+window.suiteTableData['Demo_Suite']= { tableData: data, tableDiv: 'times-div-Demo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Demo_Suite">
+              </div> <!-- times-div-Demo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SubtractionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">minusTest(7, 1, 6.0)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(6, 2, 4.0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(15, 5, 10.0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(14, 5, 9.0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(29, 9, 20.0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(24, 18, 6)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(10, 9, 1)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(0, 0, 0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest(8, 3, 5)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoMinusOne</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SumCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(10, 23, 33)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(10, -1, 9)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(0, 0, 0)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(-1, 10, 9)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(10, 23, 33)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(10, -1, 9)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(0, 0, 0)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest(-1, 10, 9)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CosineCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cosTest(24, 0.42)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cosTest(17, -0.275)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cosTest(3, -0.98)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cosTest(1, 0.54)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CotangentCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ctgTest(0, Infinity)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ctgTest(7, 1.14)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ctgTest(1, 0.642)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ctgTest(-1, -0.642)</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.DivisionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">divExceptionTest(50, 0, 10)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(24, 4, 6.0)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(15, 3, 5.0)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(84, 4, 21.0)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(15, 0, Infinity)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(0, 0, NaN)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(24, 4, 6)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(15, 3, 5)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(84, 4, 21)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(50, 5, 10)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.MultiplicationCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">multTest(5, 7, 35)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(4, 3, 12)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(18, 4, 72)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(9, 5, 45)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(6, 3, 18)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(5, 7, 35)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(4, 3, 12)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(18, 4, 72)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(9, 5, 45)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multTest(6, 3, 18)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.PowCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">powTest(3, 0.14)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest(0, 0.0)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest(-1, -0.84)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest(1, 0.841)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SinusCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sinTest(3, 0.14)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest(0, 0.0)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest(-1, -0.84)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest(1, 0.84)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sinTest(64, 8)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest(16, 4)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sinTest(-1, 1)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest(25, 5)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

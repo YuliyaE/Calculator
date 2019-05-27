@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]">
+  <listeners>
+    <listener class-name="com.epam.cdp.cal.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Cosine Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.CosineCalculatorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="cosTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CosineCalculatorTest -->
+    </classes>
+  </test> <!-- Cosine Cal Test(failed) -->
+  <test thread-count="5" name="Cotangent Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.CotangentCalculatorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ctgTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CotangentCalculatorTest -->
+    </classes>
+  </test> <!-- Cotangent Cal Test(failed) -->
+  <test thread-count="5" name="Square root Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.SquareRootCalculatorTest">
+        <methods>
+          <include name="sinTest" invocation-numbers="2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SquareRootCalculatorTest -->
+    </classes>
+  </test> <!-- Square root Cal Test(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->
