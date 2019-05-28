@@ -1,11 +1,8 @@
 package com.epam.cdp.cal.tests;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterGroups;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
 import com.epam.tat.module4.Calculator;
-import org.testng.annotations.BeforeGroups;
 
 import java.util.Date;
 
@@ -23,14 +20,21 @@ public class BaseTest {
 		calculator = null;
 	}
 
+	@BeforeSuite
+	public void setUpSuite(){
+		calculator = new Calculator();
+	}
+
+
 	@BeforeGroups("trigonometry")
 	public void setUpGroups() {
+		calculator = new Calculator();
 		System.out.println("Start of group");
 	}
 
 	@AfterGroups("trigonometry")
 	public void tearDownGroup() {
-		System.out.println("End of group");
+			System.out.println("End of group");
 	}
 
 	protected void checkTime() {

@@ -17,7 +17,6 @@ public class Runner {
 
 		XmlSuite suite = new XmlSuite();
 		suite.setSuiteFiles(Arrays.asList("./src/test/resources/testng.xml"));
-		//suite.setSuiteFiles(Arrays.asList("./src/test/resources/trigonometrytestng.xml"));
 
 		List<XmlSuite> suites = new ArrayList<XmlSuite>();
 		suites.add(suite);
