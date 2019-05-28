@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.CosineCalculatorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="cosTest"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CosineCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.SinusCalculatorTest">
+        <methods>
+          <include name="sinusTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SinusCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.SumCalculatorTest">
+        <methods>
+          <include name="onePlusTwoTest"/>
+          <include name="onePlusTwoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SumCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.DivisionCalculatorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="divExceptionTest"/>
+          <include name="setUp"/>
+          <include name="divTest"/>
+          <include name="divTest"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.DivisionCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.TangentCalculatorTest">
+        <methods>
+          <include name="tangentTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.TangentCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.NegativeNumberTest">
+        <methods>
+          <include name="numberIsNegativeTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.NegativeNumberTest -->
+      <class name="com.epam.cdp.cal.tests.PositiveNumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="numberIsPositiveTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.PositiveNumberTest -->
+      <class name="com.epam.cdp.cal.tests.SubtractionCalculatorTest">
+        <methods>
+          <include name="minusTest"/>
+          <include name="minusTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="twoMinusOne"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SubtractionCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.MultiplicationCalculatorTest">
+        <methods>
+          <include name="multiplicationTest"/>
+          <include name="multiplicationTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.MultiplicationCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.SquareRootCalculatorTest">
+        <methods>
+          <include name="sinTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SquareRootCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.CotangentCalculatorTest">
+        <methods>
+          <include name="cotangentTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CotangentCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.PowerCalculatorTest">
+        <methods>
+          <include name="powTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.PowerCalculatorTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

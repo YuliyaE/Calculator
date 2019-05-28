@@ -10,20 +10,20 @@ import static jdk.nashorn.internal.objects.Global.NaN;
 public class DivisionCalculatorTest extends BaseTest {
 
     @Test(dataProvider = "dataForDivisionTest")
-    public void divTest(long a, long b, long expectedResult) {
-        long result = calculator.div(a, b);
+    public void divTest(long firstNumber, long secondNumber, long expectedResult) {
+        long result = calculator.div(firstNumber, secondNumber);
         Assert.assertEquals(result, expectedResult, "Invalid result of division");
     }
 
     @Test(dataProvider = "dataForExceptionDivisionTest", expectedExceptions = NumberFormatException.class)
-    public void divExceptionTest(long a, long b, long expectedResult) {
-        long result = calculator.div(a, b);
+    public void divExceptionTest(long firstNumber, long secondNumber, long expectedResult) {
+        long result = calculator.div(firstNumber, secondNumber);
         Assert.assertEquals(result, expectedResult, "Invalid result of division");
     }
 
     @Test(dataProvider = "dataForDoubleDivisionTest")
-    public void divTest(double a, double b, double expectedResult) {
-        double result = calculator.div(a, b);
+    public void divTest(long firstNumber, long secondNumber, double expectedResult) {
+        double result = calculator.div(firstNumber, secondNumber);
         Assert.assertEquals(result, expectedResult, "Invalid result of division");
     }
 
@@ -48,7 +48,7 @@ public class DivisionCalculatorTest extends BaseTest {
         };
     }
 
-    @DataProvider(name = "dataForExceptionDivTest")
+    @DataProvider(name = "dataForExceptionDivisionTest")
     public Object[][] dataForExceptionDiv() {
         return new Object[][]{
                 {50, 0, 10}

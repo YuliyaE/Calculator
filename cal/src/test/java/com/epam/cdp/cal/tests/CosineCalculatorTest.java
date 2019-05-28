@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 
 public class CosineCalculatorTest extends BaseTest {
 
-    @Test(dataProvider = "dataForCosTest")
-    public void cosTest(double a, double expectedResult) {
-        double result = calculator.cos(a);
+    @Test(dataProvider = "dataForCosTest", groups = {"trigonometry"})
+    public void cosTest(double number, double expectedResult) {
+        double result = calculator.cos(number);
         Assert.assertEquals(expectedResult, result, 0.01, "Invalid result of cosine");
 
     }

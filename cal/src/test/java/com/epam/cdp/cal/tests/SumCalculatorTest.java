@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 
 public class SumCalculatorTest extends BaseTest {
 	
-	@Test(dataProvider = "valuesForSunTest")
-	public void onePlusTwoTest(long a, long b, long expectedValue) {
+	@Test(dataProvider = "valuesForSunTest", groups = "trigonometry")
+	public void onePlusTwoTest(long a, long b, long expectedValue) throws InterruptedException{
+		Thread.sleep(500);
 		long result = calculator.sum(a, b);
 		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
 	}

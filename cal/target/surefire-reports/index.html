@@ -1,0 +1,2135 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-skipped">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">68 methods,  68 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest">cosTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest">cosTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest">cosTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CosineCalculatorTest" hash-for-method="cosTest">cosTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="cotangentTest">cotangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="cotangentTest">cotangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="cotangentTest">cotangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.CotangentCalculatorTest" hash-for-method="cotangentTest">cotangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divExceptionTest">divExceptionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.DivisionCalculatorTest" hash-for-method="divTest">divTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="minusTest">minusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.MultiplicationCalculatorTest" hash-for-method="multiplicationTest">multiplicationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.NegativeNumberTest" hash-for-method="numberIsNegativeTest">numberIsNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.NegativeNumberTest" hash-for-method="numberIsNegativeTest">numberIsNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.NegativeNumberTest" hash-for-method="numberIsNegativeTest">numberIsNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.NegativeNumberTest" hash-for-method="numberIsNegativeTest">numberIsNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PositiveNumberTest" hash-for-method="numberIsPositiveTest">numberIsPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PositiveNumberTest" hash-for-method="numberIsPositiveTest">numberIsPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PositiveNumberTest" hash-for-method="numberIsPositiveTest">numberIsPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PositiveNumberTest" hash-for-method="numberIsPositiveTest">numberIsPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SumCalculatorTest" hash-for-method="onePlusTwoTest">onePlusTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PowerCalculatorTest" hash-for-method="powTest">powTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PowerCalculatorTest" hash-for-method="powTest">powTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PowerCalculatorTest" hash-for-method="powTest">powTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.PowerCalculatorTest" hash-for-method="powTest">powTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest">sinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest">sinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest">sinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SquareRootCalculatorTest" hash-for-method="sinTest">sinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinusTest">sinusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinusTest">sinusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinusTest">sinusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SinusCalculatorTest" hash-for-method="sinusTest">sinusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.TangentCalculatorTest" hash-for-method="tangentTest">tangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.TangentCalculatorTest" hash-for-method="tangentTest">tangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.TangentCalculatorTest" hash-for-method="tangentTest">tangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.TangentCalculatorTest" hash-for-method="tangentTest">tangentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.epam.cdp.cal.tests.SubtractionCalculatorTest" hash-for-method="twoMinusOne">twoMinusOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SumCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onePlusTwoTest">
+                  </a> <!-- onePlusTwoTest -->
+                  <span class="method-name">onePlusTwoTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SinusCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinusTest">
+                  </a> <!-- sinusTest -->
+                  <span class="method-name">sinusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinusTest">
+                  </a> <!-- sinusTest -->
+                  <span class="method-name">sinusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinusTest">
+                  </a> <!-- sinusTest -->
+                  <span class="method-name">sinusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinusTest">
+                  </a> <!-- sinusTest -->
+                  <span class="method-name">sinusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.DivisionCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divExceptionTest">
+                  </a> <!-- divExceptionTest -->
+                  <span class="method-name">divExceptionTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest">
+                  </a> <!-- divTest -->
+                  <span class="method-name">divTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.NegativeNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsNegativeTest">
+                  </a> <!-- numberIsNegativeTest -->
+                  <span class="method-name">numberIsNegativeTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsNegativeTest">
+                  </a> <!-- numberIsNegativeTest -->
+                  <span class="method-name">numberIsNegativeTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsNegativeTest">
+                  </a> <!-- numberIsNegativeTest -->
+                  <span class="method-name">numberIsNegativeTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsNegativeTest">
+                  </a> <!-- numberIsNegativeTest -->
+                  <span class="method-name">numberIsNegativeTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SubtractionCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusTest">
+                  </a> <!-- minusTest -->
+                  <span class="method-name">minusTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoMinusOne">
+                  </a> <!-- twoMinusOne -->
+                  <span class="method-name">twoMinusOne</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.PositiveNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsPositiveTest">
+                  </a> <!-- numberIsPositiveTest -->
+                  <span class="method-name">numberIsPositiveTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsPositiveTest">
+                  </a> <!-- numberIsPositiveTest -->
+                  <span class="method-name">numberIsPositiveTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsPositiveTest">
+                  </a> <!-- numberIsPositiveTest -->
+                  <span class="method-name">numberIsPositiveTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberIsPositiveTest">
+                  </a> <!-- numberIsPositiveTest -->
+                  <span class="method-name">numberIsPositiveTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.PowerCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest">
+                  </a> <!-- powTest -->
+                  <span class="method-name">powTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest">
+                  </a> <!-- powTest -->
+                  <span class="method-name">powTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest">
+                  </a> <!-- powTest -->
+                  <span class="method-name">powTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest">
+                  </a> <!-- powTest -->
+                  <span class="method-name">powTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.CosineCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest">
+                  </a> <!-- cosTest -->
+                  <span class="method-name">cosTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+Caused by: java.lang.ClassNotFoundException: com.epam.tat.module4.Calculator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest">
+                  </a> <!-- cosTest -->
+                  <span class="method-name">cosTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+Caused by: java.lang.ClassNotFoundException: com.epam.tat.module4.Calculator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest">
+                  </a> <!-- cosTest -->
+                  <span class="method-name">cosTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+Caused by: java.lang.ClassNotFoundException: com.epam.tat.module4.Calculator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cosTest">
+                  </a> <!-- cosTest -->
+                  <span class="method-name">cosTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+Caused by: java.lang.ClassNotFoundException: com.epam.tat.module4.Calculator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.TangentCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tangentTest">
+                  </a> <!-- tangentTest -->
+                  <span class="method-name">tangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tangentTest">
+                  </a> <!-- tangentTest -->
+                  <span class="method-name">tangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tangentTest">
+                  </a> <!-- tangentTest -->
+                  <span class="method-name">tangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tangentTest">
+                  </a> <!-- tangentTest -->
+                  <span class="method-name">tangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest">
+                  </a> <!-- sinTest -->
+                  <span class="method-name">sinTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest">
+                  </a> <!-- sinTest -->
+                  <span class="method-name">sinTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest">
+                  </a> <!-- sinTest -->
+                  <span class="method-name">sinTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sinTest">
+                  </a> <!-- sinTest -->
+                  <span class="method-name">sinTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.MultiplicationCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplicationTest">
+                  </a> <!-- multiplicationTest -->
+                  <span class="method-name">multiplicationTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.cdp.cal.tests.CotangentCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cotangentTest">
+                  </a> <!-- cotangentTest -->
+                  <span class="method-name">cotangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cotangentTest">
+                  </a> <!-- cotangentTest -->
+                  <span class="method-name">cotangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cotangentTest">
+                  </a> <!-- cotangentTest -->
+                  <span class="method-name">cotangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cotangentTest">
+                  </a> <!-- cotangentTest -->
+                  <span class="method-name">cotangentTest</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/epam/tat/module4/Calculator
+	at com.epam.cdp.cal.tests.BaseTest.setUp(BaseTest.java:16)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.junittests.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.junittests.SumCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.listeners.TestListeners&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.CosineCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.CotangentCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.DivisionCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.MultiplicationCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.NegativeNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.PositiveNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.PowerCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SinusCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SquareRootCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SubtractionCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.SumCalculatorTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.cdp.cal.tests.TangentCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">trigonometry</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cosTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cotangentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">onePlusTwoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sinusTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tangentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(68);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'onePlusTwoTest')
+data.setCell(0, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'divTest')
+data.setCell(1, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tangentTest')
+data.setCell(2, 2, 'com.epam.cdp.cal.tests.TangentCalculatorTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sinTest')
+data.setCell(3, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'onePlusTwoTest')
+data.setCell(4, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sinusTest')
+data.setCell(5, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sinusTest')
+data.setCell(6, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cotangentTest')
+data.setCell(7, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'powTest')
+data.setCell(8, 2, 'com.epam.cdp.cal.tests.PowerCalculatorTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sinTest')
+data.setCell(9, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sinTest')
+data.setCell(10, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'minusTest')
+data.setCell(11, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'numberIsPositiveTest')
+data.setCell(12, 2, 'com.epam.cdp.cal.tests.PositiveNumberTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'divTest')
+data.setCell(13, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sinusTest')
+data.setCell(14, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'minusTest')
+data.setCell(15, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'divTest')
+data.setCell(16, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'twoMinusOne')
+data.setCell(17, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'numberIsNegativeTest')
+data.setCell(18, 2, 'com.epam.cdp.cal.tests.NegativeNumberTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'divTest')
+data.setCell(19, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'powTest')
+data.setCell(20, 2, 'com.epam.cdp.cal.tests.PowerCalculatorTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'onePlusTwoTest')
+data.setCell(21, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'numberIsPositiveTest')
+data.setCell(22, 2, 'com.epam.cdp.cal.tests.PositiveNumberTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'minusTest')
+data.setCell(23, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'onePlusTwoTest')
+data.setCell(24, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'multiplicationTest')
+data.setCell(25, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'multiplicationTest')
+data.setCell(26, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'multiplicationTest')
+data.setCell(27, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'multiplicationTest')
+data.setCell(28, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'numberIsNegativeTest')
+data.setCell(29, 2, 'com.epam.cdp.cal.tests.NegativeNumberTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'onePlusTwoTest')
+data.setCell(30, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'multiplicationTest')
+data.setCell(31, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'tangentTest')
+data.setCell(32, 2, 'com.epam.cdp.cal.tests.TangentCalculatorTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'minusTest')
+data.setCell(33, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'cotangentTest')
+data.setCell(34, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'divTest')
+data.setCell(35, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'cosTest')
+data.setCell(36, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'multiplicationTest')
+data.setCell(37, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'minusTest')
+data.setCell(38, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'minusTest')
+data.setCell(39, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'divTest')
+data.setCell(40, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'powTest')
+data.setCell(41, 2, 'com.epam.cdp.cal.tests.PowerCalculatorTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'cosTest')
+data.setCell(42, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'minusTest')
+data.setCell(43, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'divExceptionTest')
+data.setCell(44, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'powTest')
+data.setCell(45, 2, 'com.epam.cdp.cal.tests.PowerCalculatorTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'onePlusTwoTest')
+data.setCell(46, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'sinTest')
+data.setCell(47, 2, 'com.epam.cdp.cal.tests.SquareRootCalculatorTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'divTest')
+data.setCell(48, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'minusTest')
+data.setCell(49, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'minusTest')
+data.setCell(50, 2, 'com.epam.cdp.cal.tests.SubtractionCalculatorTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'cotangentTest')
+data.setCell(51, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'onePlusTwoTest')
+data.setCell(52, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'tangentTest')
+data.setCell(53, 2, 'com.epam.cdp.cal.tests.TangentCalculatorTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'divTest')
+data.setCell(54, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'cosTest')
+data.setCell(55, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'numberIsNegativeTest')
+data.setCell(56, 2, 'com.epam.cdp.cal.tests.NegativeNumberTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'multiplicationTest')
+data.setCell(57, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'onePlusTwoTest')
+data.setCell(58, 2, 'com.epam.cdp.cal.tests.SumCalculatorTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'cotangentTest')
+data.setCell(59, 2, 'com.epam.cdp.cal.tests.CotangentCalculatorTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'divTest')
+data.setCell(60, 2, 'com.epam.cdp.cal.tests.DivisionCalculatorTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'cosTest')
+data.setCell(61, 2, 'com.epam.cdp.cal.tests.CosineCalculatorTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'multiplicationTest')
+data.setCell(62, 2, 'com.epam.cdp.cal.tests.MultiplicationCalculatorTest')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'numberIsNegativeTest')
+data.setCell(63, 2, 'com.epam.cdp.cal.tests.NegativeNumberTest')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'tangentTest')
+data.setCell(64, 2, 'com.epam.cdp.cal.tests.TangentCalculatorTest')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'numberIsPositiveTest')
+data.setCell(65, 2, 'com.epam.cdp.cal.tests.PositiveNumberTest')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'sinusTest')
+data.setCell(66, 2, 'com.epam.cdp.cal.tests.SinusCalculatorTest')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'numberIsPositiveTest')
+data.setCell(67, 2, 'com.epam.cdp.cal.tests.PositiveNumberTest')
+data.setCell(67, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CosineCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CotangentCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.DivisionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.MultiplicationCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.NegativeNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.PositiveNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.PowerCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SinusCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SubtractionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SumCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.TangentCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CosineCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cosTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cosTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cosTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cosTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.CotangentCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cotangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cotangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cotangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cotangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.DivisionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divExceptionTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.MultiplicationCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplicationTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.NegativeNumberTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">numberIsNegativeTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsNegativeTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsNegativeTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsNegativeTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.PositiveNumberTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">numberIsPositiveTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsPositiveTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsPositiveTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numberIsPositiveTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.PowerCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">powTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">powTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SinusCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sinusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SquareRootCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sinTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sinTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SubtractionCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoMinusOne</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.SumCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onePlusTwoTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.cal.tests.TangentCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tangentTest</span>
+                <span class="method-start">-1559033466539 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

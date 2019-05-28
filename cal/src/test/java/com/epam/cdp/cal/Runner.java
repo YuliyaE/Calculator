@@ -16,8 +16,8 @@ public class Runner {
 		testNg.addListener(new TestListeners());
 		
 		XmlSuite suite = new XmlSuite();
+		//suite.setSuiteFiles(Arrays.asList("./src/test/resources/trigonometrytestng.xml"));
 		suite.setSuiteFiles(Arrays.asList("./src/test/resources/testng.xml"));
-		
 		
 		List<XmlSuite> suites = new ArrayList<XmlSuite>();
 		suites.add(suite);

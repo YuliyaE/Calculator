@@ -8,9 +8,9 @@ import static jdk.nashorn.internal.objects.Global.Infinity;
 
 public class CotangentCalculatorTest extends BaseTest {
 
-    @Test(dataProvider = "dataForCotangentTest")
-    public void cotangentTest(double a, double expectedResult) {
-        double result = calculator.ctg(a);
+    @Test(dataProvider = "dataForCotangentTest", groups = {"trigonometry"})
+    public void cotangentTest(double number, double expectedResult) {
+        double result = calculator.ctg(number);
         Assert.assertEquals(expectedResult, result, 0.01, "Invalid result of cotangent");
 
     }
@@ -24,6 +24,5 @@ public class CotangentCalculatorTest extends BaseTest {
                 {-1, -0.642}
         };
     }
-
 
 }

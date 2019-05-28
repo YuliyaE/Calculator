@@ -1,9 +1,11 @@
 package com.epam.cdp.cal.tests;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeClass;
 
 import com.epam.tat.module4.Calculator;
+import org.testng.annotations.BeforeGroups;
 
 public class BaseTest {
 	
@@ -17,6 +19,16 @@ public class BaseTest {
 	@AfterClass
 	public void tearDown() {
 		calculator = null;
+	}
+
+	@BeforeGroups("trigonometry")
+	public void setUpGroups() {
+		System.out.println("Start of group");
+	}
+
+	@AfterGroups("trigonometry")
+	public void tearDownGroup() {
+		System.out.println("End of group");
 	}
 
 }
