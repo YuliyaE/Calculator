@@ -10,7 +10,6 @@ public class CosineCalculatorTest extends BaseTest {
     public void cosTest(double number, double expectedResult) {
         double result = calculator.cos(number);
         Assert.assertEquals(expectedResult, result, 0.01, "Invalid result of cosine");
-
     }
 
     @DataProvider(name = "dataForCosTest")

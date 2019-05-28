@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Demo Suite" parallel="methods" thread-count="14">
+<suite name="Demo Suite" parallel="methods" thread-count="1">
 	<listeners>
 		<listener class-name="com.epam.cdp.cal.listeners.TestListeners"></listener>
 	</listeners>
@@ -16,17 +16,6 @@
 		</classes>
 	</test>
 
-	<test name="Cosine Cal Test">
-		<classes>
-			<class name="com.epam.cdp.cal.tests.CosineCalculatorTest"></class>
-		</classes>
-	</test>
-
-	<test name="Cotangent Cal Test">
-		<classes>
-			<class name="com.epam.cdp.cal.tests.CotangentCalculatorTest"></class>
-		</classes>
-	</test>
 
 	<test name="Division Cal Test">
 		<classes>
@@ -46,17 +35,44 @@
 		</classes>
 	</test>
 
-	<test name="Sinus Cal Test">
-		<classes>
-			<class name="com.epam.cdp.cal.tests.SinusCalculatorTest"></class>
-		</classes>
-	</test>
 
 	<test name="Square root Cal Test">
 		<classes>
 			<class name="com.epam.cdp.cal.tests.SquareRootCalculatorTest"></class>
 		</classes>
 	</test>
+
+
+
+	<test name="Positive Number Test">
+		<classes>
+			<class name="com.epam.cdp.cal.tests.PositiveNumberTest"></class>
+		</classes>
+	</test>
+	<test name="Negative Cal Test">
+		<classes>
+			<class name="com.epam.cdp.cal.tests.NegativeNumberTest"></class>
+		</classes>
+	</test>
+
+
+	<test name="calculator">
+
+		<groups>
+			<run>
+				<include name="trigonometry" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.epam.cdp.cal.tests.CosineCalculatorTest" />
+			<class name="com.epam.cdp.cal.tests.TangentCalculatorTest" />
+			<class name="com.epam.cdp.cal.tests.CotangentCalculatorTest" />
+			<class name="com.epam.cdp.cal.tests.SinusCalculatorTest" />
+		</classes>
+
+	</test>
+
 
 
 </suite>

@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class SinusCalculatorTest extends BaseTest {
 
     @Test(dataProvider = "dataForSinusTest", groups = {"trigonometry"})
-    public void sinusTest(double a, double expectedResult) {
-        double result = calculator.sin(a);
+    public void sinusTest(double number, double expectedResult) {
+        double result = calculator.sin(number);
         Assert.assertEquals(expectedResult, result, 0.01,  "Invalid result of sinus");
 
     }

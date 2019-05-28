@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class SquareRootCalculatorTest extends BaseTest {
 
     @Test(dataProvider = "dataForSqrtTest")
-    public void sqrtTest(double a, double expectedResult) {
-        double result = calculator.sqrt(a);
+    public void sqrtTest(double number, double expectedResult) {
+        double result = calculator.sqrt(number);
         Assert.assertEquals(expectedResult, result, "Invalid result of square root");
 
     }

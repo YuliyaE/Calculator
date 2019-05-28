@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 public class NegativeNumberTest extends BaseTest {
 
     @Test(dataProvider = "dataForNegativeNumbersTest")
-    public void numberIsNegativeTest(long number, boolean expectedresult){
+    public void numberIsNegativeTest(long number, boolean expectedResult){
         boolean result = calculator.isNegative(number);
-        Assert.assertEquals(expectedresult, result);
+        Assert.assertEquals(expectedResult, result);
     }
 
     @DataProvider(name = "dataForNegativeNumbersTest")

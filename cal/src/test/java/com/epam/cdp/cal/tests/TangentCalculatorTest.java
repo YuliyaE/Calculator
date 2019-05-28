@@ -8,10 +8,10 @@ public class TangentCalculatorTest extends BaseTest{
 
 
     @Test(dataProvider = "dataForTangentTest", groups = {"trigonometry"})
-    public void tangentTest(double a, double expectedResult) {
-       double result = calculator.tg(a);
+    public void tangentTest(double number, double expectedResult) {
+       double result = calculator.tg(number);
        Assert.assertEquals(expectedResult, result, 0.01, "Invalid result of tangent");
-
+        checkTime();
     }
 
     @DataProvider(name = "dataForTangentTest")

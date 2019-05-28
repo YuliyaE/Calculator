@@ -4,6 +4,8 @@ import com.epam.tat.module4.Calculator;
 import org.junit.After;
 import org.junit.Before;
 
+import java.util.Date;
+
 
 public class BaseTest {
 

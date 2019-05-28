@@ -13,14 +13,14 @@ public class SubtractionCalculatorTest extends BaseTest {
 	}
 
 	@Test(dataProvider = "valuesForDoubleSubTest")
-	public void minusTest(double a, double b, double expectedValue) {
-		double result = calculator.sub(a, b);
+	public void minusTest(double firstNumber, double secondNumber, double expectedValue) {
+		double result = calculator.sub(firstNumber, secondNumber);
 		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
 	}
 
 	@Test(dataProvider = "valuesForSubTest")
-	public void minusTest(long a, long b, long expectedValue) {
-		long result = calculator.sub(a, b);
+	public void minusTest(long firstNumber, long secondNumber, long expectedValue) {
+		long result = calculator.sub(firstNumber, secondNumber);
 		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
 	}
 

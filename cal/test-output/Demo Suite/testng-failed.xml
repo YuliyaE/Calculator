@@ -1,43 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="14" guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]" parallel="methods">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]" parallel="methods">
   <listeners>
     <listener class-name="com.epam.cdp.cal.listeners.TestListeners"/>
   </listeners>
-  <test thread-count="14" name="Cosine Cal Test(failed)" parallel="methods">
-    <classes>
-      <class name="com.epam.cdp.cal.tests.CosineCalculatorTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="cosTest" invocation-numbers="0 1 2 3"/>
-        </methods>
-      </class> <!-- com.epam.cdp.cal.tests.CosineCalculatorTest -->
-    </classes>
-  </test> <!-- Cosine Cal Test(failed) -->
-  <test thread-count="14" name="Cotangent Cal Test(failed)" parallel="methods">
-    <classes>
-      <class name="com.epam.cdp.cal.tests.CotangentCalculatorTest">
-        <methods>
-          <include name="cotangentTest" invocation-numbers="0 1 2 3"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.epam.cdp.cal.tests.CotangentCalculatorTest -->
-    </classes>
-  </test> <!-- Cotangent Cal Test(failed) -->
-  <test thread-count="14" name="Division Cal Test(failed)" parallel="methods">
-    <classes>
-      <class name="com.epam.cdp.cal.tests.DivisionCalculatorTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="divTest" invocation-numbers="3 4"/>
-        </methods>
-      </class> <!-- com.epam.cdp.cal.tests.DivisionCalculatorTest -->
-    </classes>
-  </test> <!-- Division Cal Test(failed) -->
-  <test thread-count="14" name="Multiplication Cal Test(failed)" parallel="methods">
+  <test thread-count="1" name="Multiplication Cal Test(failed)" parallel="methods">
     <classes>
       <class name="com.epam.cdp.cal.tests.MultiplicationCalculatorTest">
         <methods>
@@ -48,7 +15,7 @@
       </class> <!-- com.epam.cdp.cal.tests.MultiplicationCalculatorTest -->
     </classes>
   </test> <!-- Multiplication Cal Test(failed) -->
-  <test thread-count="14" name="Power Cal Test(failed)" parallel="methods">
+  <test thread-count="1" name="Power Cal Test(failed)" parallel="methods">
     <classes>
       <class name="com.epam.cdp.cal.tests.PowerCalculatorTest">
         <methods>
@@ -59,4 +26,33 @@
       </class> <!-- com.epam.cdp.cal.tests.PowerCalculatorTest -->
     </classes>
   </test> <!-- Power Cal Test(failed) -->
+  <test thread-count="1" name="calculator(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="trigonometry"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.cdp.cal.tests.SinusCalculatorTest">
+        <methods>
+          <include name="sinusTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.SinusCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.CosineCalculatorTest">
+        <methods>
+          <include name="cosTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CosineCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.TangentCalculatorTest">
+        <methods>
+          <include name="tangentTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.TangentCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.CotangentCalculatorTest">
+        <methods>
+          <include name="cotangentTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.CotangentCalculatorTest -->
+    </classes>
+  </test> <!-- calculator(failed) -->
 </suite> <!-- Failed suite [Demo Suite] -->

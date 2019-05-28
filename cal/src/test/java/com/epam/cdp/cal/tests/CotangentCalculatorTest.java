@@ -12,7 +12,6 @@ public class CotangentCalculatorTest extends BaseTest {
     public void cotangentTest(double number, double expectedResult) {
         double result = calculator.ctg(number);
         Assert.assertEquals(expectedResult, result, 0.01, "Invalid result of cotangent");
-
     }
 
     @DataProvider(name = "dataForCotangentTest")

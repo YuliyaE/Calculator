@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="Parallel suite" parallel="methods" thread-count="3">
-    <test name="ParallelTest">
-        <classes>
-        <class name="com.epam.cdp.cal.tests.ParallelTest"></class>
-        </classes>
-    </test>
-</suite>

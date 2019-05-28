@@ -4,9 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import static jdk.nashorn.internal.objects.Global.Infinity;
-import static jdk.nashorn.internal.objects.Global.NaN;
-
 public class DivisionCalculatorTest extends BaseTest {
 
     @Test(dataProvider = "dataForDivisionTest")
@@ -43,8 +40,6 @@ public class DivisionCalculatorTest extends BaseTest {
                 {24, 4, 6.0},
                 {15, 3, 5.0},
                 {84, 4, 21.0},
-                {15, 0, Infinity},
-                {0, 0, NaN}
         };
     }
 

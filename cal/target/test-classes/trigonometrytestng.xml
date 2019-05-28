@@ -1,6 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestTrigonometryFunctions">
+<suite name="TestTrigonometryFunctions" parallel="classes" thread-count="1">
+
+    <listeners>
+        <listener class-name="com.epam.cdp.cal.listeners.TestListeners"></listener>
+    </listeners>
 
     <test name="calculator">
 

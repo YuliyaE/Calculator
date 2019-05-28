@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 public class MultiplicationCalculatorTest extends BaseTest {
 
     @Test(dataProvider = "dataForDoubleMultiplicationTest")
-    public void multiplicationTest(double a, double b, double expectedResult) {
-        double result = calculator.mult(a, b);
+    public void multiplicationTest(double firstNumber, double secondNumber,double expectedResult) {
+        double result = calculator.mult(firstNumber, secondNumber);
         Assert.assertEquals(result, expectedResult, "Invalid result of multiplication");
     }
 
     @Test(dataProvider = "dataForMultiplicationTest")
-    public void multiplicationTest(long a, long b, long expectedResult) {
-        long result = calculator.mult(a, b);
+    public void multiplicationTest(long firstNumber, long secondNumber, long expectedResult) {
+        long result = calculator.mult(firstNumber, secondNumber);
         Assert.assertEquals(result, expectedResult, "Invalid result of multiplication");
     }
 

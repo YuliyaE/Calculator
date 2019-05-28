@@ -14,11 +14,11 @@ public class Runner {
 	public static void main(String[] args) {
 		TestNG testNg = new TestNG();
 		testNg.addListener(new TestListeners());
-		
+
 		XmlSuite suite = new XmlSuite();
-		//suite.setSuiteFiles(Arrays.asList("./src/test/resources/trigonometrytestng.xml"));
 		suite.setSuiteFiles(Arrays.asList("./src/test/resources/testng.xml"));
-		
+		//suite.setSuiteFiles(Arrays.asList("./src/test/resources/trigonometrytestng.xml"));
+
 		List<XmlSuite> suites = new ArrayList<XmlSuite>();
 		suites.add(suite);
 		

@@ -1,5 +1,6 @@
 package com.epam.cdp.cal.tests;
 
+import com.epam.tat.module4.Timeout;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -7,9 +8,9 @@ import org.testng.annotations.Test;
 public class SumCalculatorTest extends BaseTest {
 	
 	@Test(dataProvider = "valuesForSunTest", groups = "trigonometry")
-	public void onePlusTwoTest(long a, long b, long expectedValue) throws InterruptedException{
-		Thread.sleep(500);
-		long result = calculator.sum(a, b);
+	public void onePlusTwoTest(long firstNumber, long secondNumber, long expectedValue){
+		checkTime();
+		long result = calculator.sum(firstNumber, secondNumber);
 		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
 	}
 
