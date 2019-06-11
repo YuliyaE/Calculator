@@ -27,17 +27,14 @@ public class TestListeners implements ITestListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
 		
 	}
 
@@ -47,7 +44,6 @@ public class TestListeners implements ITestListener {
 
 
 	public void saveScreenshots() {
-
         try {
 			Date date = new Date();
             BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));

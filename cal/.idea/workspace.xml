@@ -15,20 +15,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/TangentCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/PositiveNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/SinusCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,10 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/TangentCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/PowerCalculatorNegativeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="462">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/CosineCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/SinusCalculatorNegativeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="462">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/TangentCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="462">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,28 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/SinusCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SinusCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="378">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,20 +112,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/listeners/TestListeners.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/PowerCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="525">
+              <caret line="25" selection-start-line="9" selection-start-column="3" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/1559049319677.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -131,18 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/cdp/cal/F.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/cdp/cal/D.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/cdp/cal/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/CtgcalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/MultCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/DivCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SubCalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/CosCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SynCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SinCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SqrtCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/PowCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SumCalTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/SumCalculatorTest.java" />
@@ -158,9 +150,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/DivisionCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/PositiveNumberTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/PowerCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/listeners/TestListeners.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SinusCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SumCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/TangentCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SubtractionCalculatorTest.java" />
@@ -170,7 +160,32 @@
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testngtrig.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/listeners/TestListeners.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/CosineCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/CotangentCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/CotangentCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/DivisionCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/NegativeNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/PositiveNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/PowerCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/SinusCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/SquareRootCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/TangentCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/CosineCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/SumCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/SubtractionCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/CotangentCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/DivisionCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/MltiplicationCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/MultiplicationCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/MultiplicationCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/PowerCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/SinusCalculatorNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/TangentCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -208,6 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,12 +241,6 @@
               <item name="cal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,15 +257,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cal" type="462c0819:PsiDirectoryNode" />
-              <item name="junittests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cal" type="b2602c69:ProjectViewProjectNode" />
@@ -273,6 +275,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cal" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cal" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cal" type="b2602c69:ProjectViewProjectNode" />
@@ -314,12 +336,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/calculator-1.0.jar!/" />
+    <property name="last_opened_file_path" value="D:/cal" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -341,40 +361,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.Runner" />
+  <component name="RunManager" selected="TestNG.TangentCalculatorTest">
+    <configuration name="MultiplicationCalculatorNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.cdp.cal.*" />
+          <option name="PATTERN" value="com.epam.cdp.cal.tests.testng.negative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CosineCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.cdp.cal.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.CosineCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests.testng.negative" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.testng.negative.MultiplicationCalculatorNegativeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -382,16 +379,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CotangentCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiplicationCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.cdp.cal.tests.*" />
+          <option name="PATTERN" value="com.epam.cdp.cal.tests.testng.positive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.CotangentCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.testng.positive.MultiplicationCalculatorTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -399,16 +396,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisionCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerCalculatorNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.cdp.cal.tests.*" />
+          <option name="PATTERN" value="com.epam.cdp.cal.tests.testng.negative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.DivisionCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests.testng.negative" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.testng.negative.PowerCalculatorNegativeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinusCalculatorNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.cdp.cal.tests.testng.negative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests.testng.negative" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.testng.negative.SinusCalculatorNegativeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TangentCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.cdp.cal.tests.testng.negative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.cdp.cal.tests.testng.negative" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.cdp.cal.tests.testng.negative.TangentCalculatorTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -434,11 +465,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="TestNG.C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.CosineCalculatorTest" />
-        <item itemvalue="TestNG.DivisionCalculatorTest" />
-        <item itemvalue="TestNG.CotangentCalculatorTest" />
+        <item itemvalue="TestNG.TangentCalculatorTest" />
+        <item itemvalue="TestNG.SinusCalculatorNegativeTest" />
+        <item itemvalue="TestNG.PowerCalculatorNegativeTest" />
+        <item itemvalue="TestNG.MultiplicationCalculatorNegativeTest" />
+        <item itemvalue="TestNG.MultiplicationCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -456,35 +487,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 16m 55s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="DivisionCalculatorNegativeTest - 2019.06.11 at 00h 43m 36s.xml">
+      <configuration name="DivisionCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 17m 30s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="DivisionCalculatorNegativeTest - 2019.06.11 at 00h 44m 15s.xml">
+      <configuration name="DivisionCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 18m 19s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MultiplicationCalculatorTest - 2019.06.11 at 00h 47m 10s.xml">
+      <configuration name="MultiplicationCalculatorTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CosineCalculatorTest - 2019.05.28 at 16h 18m 26s.xml">
-      <configuration name="CosineCalculatorTest" configurationId="TestNG" />
+    <history-entry file="MultiplicationCalculatorNegativeTest - 2019.06.11 at 00h 48m 32s.xml">
+      <configuration name="MultiplicationCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CosineCalculatorTest - 2019.05.28 at 16h 18m 39s.xml">
-      <configuration name="CosineCalculatorTest" configurationId="TestNG" />
+    <history-entry file="MultiplicationCalculatorNegativeTest - 2019.06.11 at 00h 48m 41s.xml">
+      <configuration name="MultiplicationCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 18m 54s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MultiplicationCalculatorNegativeTest - 2019.06.11 at 00h 48m 56s.xml">
+      <configuration name="MultiplicationCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 19m 33s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="PowerCalculatorNegativeTest - 2019.06.11 at 00h 50m 29s.xml">
+      <configuration name="PowerCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 21m 15s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="SinusCalculatorNegativeTest - 2019.06.11 at 00h 52m 43s.xml">
+      <configuration name="SinusCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 30m 50s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="SinusCalculatorNegativeTest - 2019.06.11 at 00h 53m 08s.xml">
+      <configuration name="SinusCalculatorNegativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Yuliya_Eibatava_Downloads_cal_src_test_resources_testng_xml - 2019.05.28 at 16h 31m 51s.xml">
-      <configuration name="C:/Users/Yuliya_Eibatava/Downloads/cal/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="TangentCalculatorTest - 2019.06.11 at 00h 54m 31s.xml">
+      <configuration name="TangentCalculatorTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -497,10 +528,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26528117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2725322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,8 +539,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29339305" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32842582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3137033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1399776" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,12 +548,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.19036955" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.8640997" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49288487" weight="0.11919315" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.4893617" visible="true" weight="0.14547677" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.4893617" visible="true" weight="0.14538626" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -567,186 +598,17 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/NegativeNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SubtractionCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/DivisionCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/calculator-1.0.jar!/com/epam/tat/module4/Calculator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/trigonometrytestng.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SquareRootCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/PositiveNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/MultiplicationCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/calculator-1.0.jar!/com/epam/tat/module4/Timeout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SumCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/CotangentCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/SinusCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="121" selection-start-line="9" selection-start-column="121" selection-end-line="9" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/PositiveNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047767982.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047767427.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047767140.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047766578.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047765977.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047765692.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047764520.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047763619.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047721864.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047720978.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047719790.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047719490.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047718888.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047554469.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047550845.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047542339.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047765692.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047764520.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047763619.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047721864.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047720978.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047719790.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047719490.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047718888.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047554469.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047550845.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/1559047542339.png" />
     <entry file="file://$PROJECT_DIR$/target/screenshots/1559049320316.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -777,86 +639,24 @@
     <entry file="file://$PROJECT_DIR$/target/screenshots/1559049317961.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testngtrig.xml" />
     <entry file="file://$PROJECT_DIR$/target/screenshots/1559049319677.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/CosineCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/junittests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/SinusCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/listeners/TestListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="342">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/TangentCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testngtrig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -865,8 +665,259 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        <state relative-caret-position="506">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/CosineCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/CotangentCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/NegativeNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/CosineCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/CotangentCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/PositiveNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/DivisionCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/DivisionCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/MultiplicationCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/MultiplicationCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/SubtractionCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/SquareRootCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/SumCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/PowerCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" selection-start-line="9" selection-start-column="3" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/PowerCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/SinusCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/SinusCalculatorNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/negative/TangentCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/testng/positive/TangentCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/PositiveNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/SumCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/cdp/cal/tests/junit/SinusCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -926,7 +977,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

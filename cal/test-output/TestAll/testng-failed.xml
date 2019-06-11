@@ -8,26 +8,26 @@
       </run>
     </groups>
     <classes>
-      <class name="com.epam.cdp.cal.tests.CotangentCalculatorTest">
+      <class name="com.epam.cdp.cal.tests.testng.positive.CotangentCalculatorTest">
         <methods>
           <include name="cotangentTest" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.cal.tests.CotangentCalculatorTest -->
-      <class name="com.epam.cdp.cal.tests.TangentCalculatorTest">
+      </class> <!-- com.epam.cdp.cal.tests.testng.positive.CotangentCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.testng.positive.TangentCalculatorTest">
         <methods>
           <include name="tangentTest" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.cal.tests.TangentCalculatorTest -->
-      <class name="com.epam.cdp.cal.tests.SinusCalculatorTest">
+      </class> <!-- com.epam.cdp.cal.tests.testng.positive.TangentCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.testng.positive.SinusCalculatorTest">
         <methods>
           <include name="sinusTest" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.cal.tests.SinusCalculatorTest -->
-      <class name="com.epam.cdp.cal.tests.CosineCalculatorTest">
+      </class> <!-- com.epam.cdp.cal.tests.testng.positive.SinusCalculatorTest -->
+      <class name="com.epam.cdp.cal.tests.testng.positive.CosineCalculatorTest">
         <methods>
           <include name="cosTest" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.cal.tests.CosineCalculatorTest -->
+      </class> <!-- com.epam.cdp.cal.tests.testng.positive.CosineCalculatorTest -->
     </classes>
   </test> <!-- calculator(failed) -->
 </suite> <!-- Failed suite [TestAll] -->
